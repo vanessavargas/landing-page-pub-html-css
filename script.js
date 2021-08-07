@@ -16,9 +16,9 @@
 //Tipo de variáveis
 
 //Tipo string
-var texto = "Conjunto de caracteres"
-console.log (texto)
-console.log(typeof(texto))
+var texto = "Conjunto de caracteres";
+console.log(texto);
+console.log(typeof texto);
 
 //Tipo number
 //var numero = 1234 //numero positivo ou negativo
@@ -128,48 +128,48 @@ console.log(typeof(texto))
 // document.write(`A soma de ${num1} e ${num2} é igual a ${num1 + num2}`)
 
 //Funções
-function nomeDaFuncao(argumento1, argumento2, argumentoN){
+function nomeDaFuncao(argumento1, argumento2, argumentoN) {
   //bloco de código da função
-  return true // o retorno é opcional
+  return true; // o retorno é opcional
 }
 
-function soma (num1, num2){
-  var resultado = num1 + num2
-//  return resultado
-document.write(resultado)
+function soma(num1, num2) {
+  var resultado = num1 + num2;
+  //  return resultado
+  document.write(resultado);
 }
 
-function olaMundo(){
-  document.write('Olá Mundo!<br>')
+function olaMundo() {
+  document.write("Olá Mundo!<br>");
 }
 
 //soma (14,5)
-olaMundo()
-olaMundo()
+olaMundo();
+olaMundo();
 
-$("#slideshow>").hide()
+$("#slideshow>").hide();
 
-setInterval(function(){
+setInterval(function () {
   $("#slideshow>div:first")
-  .fadeOut(1000)
-  .next()
-  .fadeIn(1000)
-  .end()
-  .appendTo("#slideshow")
-}, 3000)
+    .fadeOut(1000)
+    .next()
+    .fadeIn(1000)
+    .end()
+    .appendTo("#slideshow");
+}, 3000);
 
 //fadeOut
-$(document).ready(function(){
-    $("button").click(function(){
-      $("#div1").fadeOut()
-      $("#div2").fadeOut("slow")
-      $("#div3").fadeOut(5000)
-    })
-  })
+$(document).ready(function () {
+  $("button").click(function () {
+    $("#div1").fadeOut();
+    $("#div2").fadeOut("slow");
+    $("#div3").fadeOut(5000);
+  });
+});
 
-  //pra baixo
-  $(document).ready(function(){
-  $("#flip").click(function(){
-    $("#panel").slideDown("slow")
-  })
-})
+//pra baixo
+$(document).ready(function () {
+  $("#flip").click(function () {
+    $("#panel").slideDown("slow");
+  });
+});

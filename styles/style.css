@@ -5,14 +5,14 @@
 
 .final {
   height: 200px;
-  background-image: url(bebidas.jpeg);
+  background-image: url(../images/bebidas.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .profile {
   height: 200px;
-  background-image: url(Profile.png);
+  background-image: url(../images/Profile.png);
 }
 
 .fakeimg {

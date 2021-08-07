@@ -17,7 +17,7 @@
 .bg-imagem {
   /*para manter a responsividade utilizamos o viewport (vw)*/
   height: 48vw;
-  background-image: url(bar.jpeg);
+  background-image: url(../images/bar.jpeg);
   /*cover define que a imagem de fundo será ajustada para conter no container*/
   background-repeat: no-repeat;
   background-size: cover;
