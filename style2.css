@@ -1,0 +1,54 @@
+/*redefinir o padrão de cores do nav do boostrap*/
+.active {
+  background-color: #35282f;
+}
+
+.nav-link,
+.dropdown-item {
+  color: white !important;
+}
+
+.nav-link:hover:not(active),
+.dropdown-item:hover {
+  background-color: #9c2c19;
+  color: white !important;
+}
+
+.bg-imagem {
+  /*para manter a responsividade utilizamos o viewport (vw)*/
+  height: 48vw;
+  background-image: url(bar.jpeg);
+  /*cover define que a imagem de fundo será ajustada para conter no container*/
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-imagem p {
+  text-shadow: 8px 8px 16px #9c2c19;
+  /*para manter a responsividade utilizamos o viewport (vw)*/
+  font-size: 6vw;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.mt-70 {
+  margin-top: 70px;
+}
+
+/*Estilo agenda */
+#agenda th {
+  font-size: 1.5vw;
+}
+
+#agenda td {
+  height: 100px;
+  /* 100% / 7 colunas */
+  width: 14.29%;
+}
+
+#agenda td.bg-info {
+  color: white;
+}
+
+footer {
+  height: 50px;
+}

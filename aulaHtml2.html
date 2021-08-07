@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <title>Página 2</title>
+  </head>
+  <body>
+    <h1>Página 2</h1>
+    <a href="index.html">Página inicial</a>
+    <hr>
+    <h2>Tabelas</h2>
+    <table border="1"align="center" width="320">
+      <tr>
+        <th>Descrição</th>
+        <th>Valor</th>
+      </tr>
+      <tr>
+        <td align="center">Celular</td>
+        <td>R$ 1000,00</td>
+      </tr>
+      <tr>
+        <td align="center">TV</td>
+        <td rowspan="2">R$ 1250,00</td>
+      <tr>
+        <td align="center">Desconto 10%</td>
+        </tr>
+      </tr>
+      <td align="center">Computador</td>
+      <td>R$ 2000,00</td>
+      <tr>
+        <td align="center">Videogame</td>
+        <td>R$ 1500,00</td>
+      </tr>
+      <tr>
+        <td align="center" colspan="2">Total = R$ 5750,00</td>
+      </tr>
+    </table>
+    <hr>
+    <h2>Formulário</h2>
+    <form action="/">
+      <!-- label rotula -->
+      <label for="usuário">Usuário</label>
+      <!-- input entrada de texto -->
+      <input type="text" id="usuário" name="usuário" autocomplete="off" required>
+      <br>
+      <label for="senha">Senha</label>
+      <input type="password" id="senha" name="senha" autocomplete="off" required>
+      <br>
+      <!-- button botão -->
+      <input type="submit" value="Entrar">
+    </form>
+  </body>
+</html>

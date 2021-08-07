@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Estudando Bootstrap</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="jumbotron text-center">
+      <h1>Principais atrações turísticas em Paris</h1>
+      <p>
+        Paris, a capital da França, é uma importante cidade europeia e um centro
+        mundial de arte, moda, gastronomia e cultura.
+      </p>
+    </div>
+    <div id="demo" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+      </ul>
+      <!-- The slideshow -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="louvre.jpg"
+            alt="Museu do Louvre"
+            width="1100"
+            height="500"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="notreDame.jpeg"
+            alt="Catedral de Notre Dame"
+            width="1100"
+            height="500"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="torreEiffel.jpeg"
+            alt="Torre Eiffel"
+            width="1100"
+            height="500"
+          />
+        </div>
+      </div>
+      <!-- Left and right controls -->
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <h3>Museu do Louvre</h3>
+          <p>
+            Louvre ou Museu do Louvre é o maior museu de arte do mundo e um
+            monumento histórico em Paris, França. Um marco central da cidade,
+            está localizado na margem direita do rio Sena, no 1º arrondissement
+            da cidade.
+          </p>
+        </div>
+        <div class="col-sm-4">
+          <h3>Catedral de Notre Dame</h3>
+          <p>
+            Uma das mais antigas catedrais francesas em estilo gótico. Iniciada
+            sua construção no ano de 1163, é dedicada à Virgem Maria e situa-se
+            na Île de la Cité em Paris, rodeada pelas águas do rio Sena.
+          </p>
+        </div>
+        <div class="col-sm-4">
+          <h3>Torre Eiffel</h3>
+          <p>
+            A Torre Eiffel é uma torre de treliça de ferro forjado, do século
+            XIX no Champ de Mars em Paris, França. Tem o nome do engenheiro
+            Gustave Eiffel, cuja empresa projetou e construiu a torre.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

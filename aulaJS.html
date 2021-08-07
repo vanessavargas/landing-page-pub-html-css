@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Aula JavaScript</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div
+      onclick="alert('este é um evento de clique')"
+      style="height: 200px; width: 200px; background-color: blue"
+    ></div>
+    <!-- JavaScript Interno -->
+    <script>
+      //Comentário de uma linha
+      /* Neste formato podemos inserir várias linhas de Comentário*/
+      //Impressao de conteúdo na página web com JavaScript
+      document.write("<h1> Meu primeiro script</h1>");
+      //Ferramenta de depuração de código
+      //console.log ("mensagem para o desenvolvedor")
+    </script>
+    <!-- JavaScript Externo -->
+    <script src="script.js"></script>
+    <!-- Slideshow -->
+    <div id="slideshow">
+      <div>
+        <img
+          src="http://farm6.static.flickr.com/5224/5658667829_2bb7d42a9c_m.jpg"
+          alt="planta"
+        />
+      </div>
+      <div>
+        <img
+          src="http://farm6.static.flickr.com/5230/5638093881_a791e4f819_m.jpg"
+          alt="cachorro"
+        />
+      </div>
+      <div>Muito legal, né?</div>
+    </div>
+    <p>Demonstração do comportamento FadeOut</p>
+    <button>Clique para esvaecer as caixas</button>
+    <br />
+    <div id="div1" style="width: 80px; height: 80px; background: red"></div>
+    <br />
+    <div id="div2" style="width: 80px; height: 80px; background: green"></div>
+    <br />
+    <div id="div3" style="width: 80px; height: 80px; background: blue"></div>
+    <div id="flip">Clique para deslizar para baixo o painel</div>
+    <div id="panel">Adoro jQuery e JavaScript</div>
+  </body>
+</html>

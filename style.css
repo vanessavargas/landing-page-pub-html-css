@@ -1,0 +1,75 @@
+.carousel-inner {
+  background-color: #c19ab7;
+  padding: 10vw;
+}
+
+.final {
+  height: 200px;
+  background-image: url(bebidas.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.profile {
+  height: 200px;
+  background-image: url(Profile.png);
+}
+
+.fakeimg {
+  height: auto;
+  background: rgb(207, 183, 201);
+  padding: 10px;
+}
+
+.jumbotron {
+  background-color: #c19ab7;
+}
+
+#slideshow {
+  margin: 80px auto;
+  position: relative;
+  width: 240px;
+  height: 240px;
+  padding: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+#slideshow > div {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+}
+
+#panel,
+#flip {
+  padding: 5px;
+  text-align: center;
+  background-color: orangered;
+  border: solid 1px white;
+  color: white;
+}
+
+#panel {
+  padding: 50px;
+  display: none;
+}
+
+.caixa {
+  background-image: linear-gradient(to left, white, #e1ce7a);
+  margin-left: 400px;
+  margin-right: 400px;
+  font-size: 20px;
+  text-align: justify;
+  padding: 10px;
+  padding-left: 15px;
+  font-style: italic;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  box-shadow: 5px 5px 5px #394a55;
+}
+
+#titulo {
+  color: #e1ce7a;
+  text-align: center;
+}

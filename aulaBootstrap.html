@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Aula 5 Bootstrap</title>
+    <!-- CDN Bootstrap 4 CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <!-- CDN Bundle Bootsrap 4 JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"
+    ></script>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <!-- Barra de navegação bootstrap -->
+    <!-- Navegação
+        Tipos
+        - nav-tabs
+        - nav-pills
+        opções de alinhamento
+        justify-content-end
+        justify-content-center -->
+    <h2>Navegação simples / abas</h2>
+    <ul class="nav nav-pills justify-content-center">
+      <!-- (li>a*4) -->
+      <li class="nav-item">
+        <a class="nav-link active" href="">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="">Sobre</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="">Contato</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="">Projetos</a>
+      </li>
+    </ul>
+    <h2>Barra de navegação simples</h2>
+    <nav class="navbar bg-primary navbar-expand-sm navbar-dark">
+      <!-- logo -->
+      <img
+        src="https://br.cellep.com/wp-content/themes/cellep/assets/img/logo_branca.svg"
+        alt="cellep"
+      />
+      <!-- itens do menu -->
+      <ul class="navbar-nav ml-auto">
+        <!-- (li[class="nav-item"]>a[class="nav-link"])*3 -->
+        <li class="nav-item">
+          <a href="" class="nav-link active">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="" class="nav-link">Sobre</a>
+        </li>
+        <li class="nav-item">
+          <a href="" class="nav-link">Projetos</a>
+        </li>
+      </ul>
+    </nav>
+    <h2>Barra de navegação com menu responsivo</h2>
+    <nav class="navbar bg-primary navbar-expand-sm navbar-dark">
+      <!-- logo -->
+      <img
+        src="https://br.cellep.com/wp-content/themes/cellep/assets/img/logo_branca.svg"
+        alt="cellep"
+      />
+      <!-- menu hamburguer -->
+      <button
+        class="navbar-toggler"
+        data-toggle="collapse"
+        data-target="#navegacao"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- itens do menu -->
+      <div class="collapse navbar-collapse" id="navegacao">
+        <ul class="navbar-nav ml-auto">
+          <!-- (li[class="nav-item"]>a[class="nav-link"])*3 -->
+          <li class="nav-item">
+            <a href="" class="nav-link active">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">Projetos</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <h2>Barra de navegação com menu dropdown</h2>
+    <nav class="navbar bg-primary navbar-expand-sm navbar-dark">
+      <!-- logo -->
+      <img
+        src="https://br.cellep.com/wp-content/themes/cellep/assets/img/logo_branca.svg"
+        alt="cellep"
+      />
+      <!-- menu hamburguer -->
+      <button
+        class="navbar-toggler"
+        data-toggle="collapse"
+        data-target="#navegacao2"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- itens do menu -->
+      <div class="collapse navbar-collapse" id="navegacao2">
+        <ul class="navbar-nav ml-auto mr-5">
+          <!-- (li[class="nav-item"]>a[class="nav-link"])*3 -->
+          <li class="nav-item">
+            <a href="" class="nav-link active">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">Sobre</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown"
+              >Projetos</a
+            >
+            <div class="dropdown-menu">
+              <!-- a[class="dropdown-item"]{Projeto $}*3 -->
+              <a href="" class="dropdown-item">Projeto 1</a>
+              <a href="" class="dropdown-item">Projeto 2</a>
+              <a href="" class="dropdown-item">Projeto 3</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Teste de funcionamento -->
+    <!-- <button class="btn btn-primary">Teste Bootstrap</button> -->
+    <!-- Sistema de Grid -->
+    <!-- <div class="container">
+     <div class="row">
+       <div class="col-sm-1 border border-dark">col-sm-1</div>
+       <div class="col-sm-1 border border-danger bg-primary">col-sm-1</div>
+       <div class="col-sm-1 border border-dark">col-sm-1</div>
+       <div class="col-sm-1 border border-danger bg-primary">col-sm-1</div>
+       <div class="col-sm-1 border border-dark">col-sm-1</div>
+       <div class="col-sm-1 border border-danger bg-primary">col-sm-1</div>
+       <div class="col-sm-1 border border-dark">col-sm-1</div>
+       <div class="col-sm-1 border border-danger bg-primary">col-sm-1</div>
+       <div class="col-sm-1 border border-dark">col-sm-1</div>
+       <div class="col-sm-1 border border-danger bg-primary">col-sm-1</div>
+       <div class="col-sm-1 border border-dark">col-sm-1</div>
+       <div class="col-sm-1 border border-danger bg-primary">col-sm-1</div>
+     </div>
+     <div class="row">
+       <div class="col-sm-6 border border-dark">col-sm-6</div>
+       <div class="col-sm-6 border border-danger bg-primary">col-sm-6</div>
+     </div>
+     <div class="row">
+       <div class="col-sm-3 border border-danger bg-primary">col-sm-3</div>
+       <div class="col-sm-9 border border-dark">col-sm-9</div>
+     </div>
+     <div class="row">
+       <div class="col-sm-12 border border-dark">col-sm-12</div>
+     </div>
+   </div> -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h3>Buttons</h3>
+          <!-- button[class="btn btn-"]*6 -->
+          <button class="btn btn-primary">Primary</button>
+          <button class="btn btn-secondary">Secondary</button>
+          <button class="btn btn-success">success</button>
+          <button class="btn btn-danger">danger</button>
+          <button class="btn btn-warning">warning</button>
+          <button class="btn btn-info">info</button>
+        </div>
+        <div class="col-md-6">
+          <h3>Outline Buttons</h3>
+          <button class="btn btn-outline-primary">Primary</button>
+          <button class="btn btn-outline-secondary">Secondary</button>
+          <button class="btn btn-outline-success">success</button>
+          <button class="btn btn-outline-danger">danger</button>
+          <button class="btn btn-outline-warning">warning</button>
+          <button class="btn btn-outline-info">info</button>
+        </div>
+      </div>
+    </div>
+    <!-- ícones-->
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-8">
+          <p>
+            Em nossas aplicações é comum utilizar ícones que representam uma
+            ação ao invés de utilizar palavras, o efeito dos ícones é mais
+            intuitivo
+          </p>
+        </div>
+        <div class="col-md-4">
+          <h3>Exemplo de ícone com bootstrap</h3>
+          <button class="btn btn-light">
+            <i
+              class="bi bi-calendar-date"
+              style="font-size: 2em; color: blue"
+            ></i>
+          </button>
+          <button class="btn btn-light">
+            <i class="bi bi-facebook" style="font-size: 2em; color: blue"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- Imagens responsivas -->
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-6">
+          <h1>Imagem responsiva</h1>
+          <img
+            class="img-fluid"
+            src="https://www.w3schools.com/css/img_lights.jpg"
+            alt=""
+          />
+        </div>
+        <div class="col-md-6">
+          <h1>Imagem não responsiva</h1>
+          <img src="https://www.w3schools.com/css/img_lights.jpg" alt="" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <h3>Alterar forma da imagem</h3>
+          <img class="rounded-circle" src="big_ben.png" alt="Big Ben" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

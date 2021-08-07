@@ -1,0 +1,24 @@
+body{
+  text-align: center;
+  background-image: linear-gradient(to left,white, #E1CE7A, #8f8fd0);
+}
+ 
+.caixa{
+
+  background-color: #e0ff58;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 100px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#biografia{
+  background-image: linear-gradient(to left,white, #E1CE7A, #8f8fd0);
+  margin: 5px;
+  font-size: 20px;
+  text-align: center;
+  padding: 100px;
+  font-style: italic;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

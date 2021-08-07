@@ -1,0 +1,48 @@
+body {
+  text-align: center;
+  background-color: #f9b9b7;
+}
+
+img {
+  height: 250px;
+  border-radius: 50%;
+}
+
+#nome,
+#titulo {
+  color: white;
+}
+
+.caixa {
+  background-color: #8e5572;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#biografia {
+  background-image: linear-gradient(to left, white, #f9b9b7);
+  margin-left: 30px;
+  margin-right: 30px;
+  font-size: 20px;
+  text-align: justify;
+  padding: 10px;
+  padding-left: 15px;
+  font-style: italic;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  box-shadow: 5px 5px 5px #394a55;
+}
+
+#contato {
+  background-image: linear-gradient(to left, white, #f9b9b7);
+  margin-left: 30px;
+  margin-right: 30px;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+  padding-left: 15px;
+  font-style: italic;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  box-shadow: 5px 5px 5px #394a55;
+}
