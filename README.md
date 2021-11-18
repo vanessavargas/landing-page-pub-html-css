@@ -8,7 +8,9 @@ Atividades e desafios desenvolvidas durante o curso de **Desenvolvimento de Webs
 ![Mockups](https://github.com/VanessaVargas/Curso-CelLep-DevWeb/blob/master/images/Mockups.png)
 
 ## Layout da página de Desafio Final do Curso
-No último dia de curso foi realizado um Hackathon, onde fomos desafiados a colocar em prática os conteúdos aprendidos durante o curso. As opções com os desafios foram entregues no início da manhã, e tivemos até a o início da tarde para finalizar, terminando o dia com a apresentação dos trabalhos realizados. 
+
+No último dia de curso foi realizado um Hackathon, onde fomos desafiados a colocar em prática os conteúdos aprendidos durante o curso. As opções com os desafios foram entregues no início da manhã, e tivemos até a o início da tarde para finalizar, terminando o dia com a apresentação dos trabalhos realizados. O desafio escolhido por mim foi uma landing page de um bar, sendo itens obrigatórios a serem apresentados: menu de navegação, cardápio, opção de reserva, sobre e contato.
+
 ![Mockups](https://github.com/VanessaVargas/Curso-CelLep-DevWeb/blob/master/desafio.png)
 
 # Sobre o Projeto
