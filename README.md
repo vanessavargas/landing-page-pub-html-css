@@ -1,4 +1,4 @@
-# Curso CelLep DevWeb
+# Sobre o projeto
 
 Atividades e desafios desenvolvidas durante o curso de **Desenvolvimento de Websites - Frontend**, da Escola de Programação Cel.Lep Tech em parceria com a Estação Hack de São Paulo, do Facebook.
 
