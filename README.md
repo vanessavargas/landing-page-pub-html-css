@@ -1,21 +1,20 @@
-# Sobre o projeto
+# Van's Pub Landing Page
 
-Projeto Final do curso de **Desenvolvimento de Websites - Frontend**, da Escola de Programação Cel.Lep Tech em parceria com a Estação Hack de São Paulo, do Facebook; desenvolvido durante o Hackathon realizado no dia 12 de junho de 2021.
-Entre as opções disponibilizadas, o desafio escolhido foi:
+This project serves as the final assignment for the Frontend Web Development course offered by Cel.Lep Tech in collaboration with Estação Hack São Paulo, sponsored by Facebook. It was developed during the Hackathon held on June 12, 2021. Among the provided options, the chosen challenge was to create a landing page for a restaurant, including mandatory elements such as navigation menu, menu, reservation option, about section, and contact information.
 
-- criar uma landing page de um restaurante, com itens obrigatórios a serem apresentados: menu de navegação, cardápio, opção de reserva, sobre e contato.
-
-# Layouts do Projeto
+### Project Layouts
 
 ![Mockups](https://github.com/VanessaVargas/Curso-CelLep-DevWeb/blob/master/images/desafio.png)
 
-Aqui você pode navegar no projeto: https://cursodevwev.netlify.app/
+You can explore the project layouts [here](https://cursodevwev.netlify.app/).
 
-# Tecnologias utilizadas
+### Technologies Used
 
 - HTML
 - CSS
 - JavaScript
 - Bootstrap
+  
+</hr>
 
-#### ✨ Desenvolvido por Vanessa Vargas ✨
+✨ Developed by Vanessa Vargas ✨
